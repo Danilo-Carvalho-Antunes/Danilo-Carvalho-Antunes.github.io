@@ -13,23 +13,26 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: dancrvlh # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Just a little about me and my projects # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  
+Welcome to my website! Here, I showcase a selection of projects I've worked on during my software engineering journey at the prestigious Universidade de Brasilia (UnB). I'm excited to share my passion for software engineering and the innovative solutions I've created.
+
+Whether you're a fellow enthusiast or a potential collaborator, I invite you to explore my projects. Feel free to utilize these projects for your own needs, and don't hesitate to get in touch with me for any inquiries or collaborations. Your feedback and engagement are greatly appreciated. Thank you for visiting, and I hope you find my work both inspiring and useful!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: 'https://Danilo-Carvalho-Antunes.github.io'
 
 github:
-  username: github_username # change to your github username
+  username: Danilo-Carvalho-Antunes # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -37,15 +40,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Danilo Carvalho Antunes
+  email: danilocarvalhoantunes@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://instagram.com/_dancrvlh # change to your twitter homepage
+    - https://github.com/Danilo-Carvalho-Antunes # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/danilo-carvalho-antunes-07383a294/
 
 google_site_verification: # fill in to your verification string
 
@@ -66,7 +69,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode:  [dark|light]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
