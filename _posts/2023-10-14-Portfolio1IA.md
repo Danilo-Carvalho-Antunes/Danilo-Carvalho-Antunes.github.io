@@ -86,7 +86,7 @@ Alan Turing made influential contributions in this period, introducing concepts 
 In 1956, AI gained further recognition with significant events.
 
 
-![The Fathers of AI](imgs/Portfolio_img_1.jpeg)
+![The Fathers of AI](/imgs/Portfolio_img_1.jpeg)_The Fathers of AI_
 
 
 ## **Great Expectations for AI**
