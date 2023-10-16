@@ -16,7 +16,7 @@ On the other hand, the term 'artificial' is simpler to define—it refers to som
 
 Building upon the interpretations of prominent figures like IBM and pioneers in the field such as Russell and Norvig, Artificial Intelligence can be summarized as a machine capable of mimicking human behaviors and cognitive processes. It is this definition that forms the basis of our exploration into the intriguing world of intelligence and artificial intelligence.
 
-# **Discussion**
+# **Content**
 
 In this section, we delve deeper into the world of Artificial Intelligence, exploring key concepts, the Turing Test, contemporary AI models, and the prevailing standard model.
 
@@ -304,7 +304,7 @@ Despite its potential, AI presents several challenges:
 
 Notable AI-related incidents, such as the Facebook-Cambridge Analytica scandal, highlight the importance of ethical and responsible AI practices in the age of big data and privacy concerns.
 
-## **Agents and Environments**
+# **Agents and Environments**
 
 Understanding the interplay between AI agents and their environments is essential. Key concepts include:
 
@@ -357,9 +357,134 @@ When designing an agent, the first step should always be to specify the task env
 
 ![Task environment properties](/imgs/Portfolio_img_3.jpeg)_Task environment properties_
 
-# Final Conclusions
+# **Agent Architecture**
+
+Agent architecture: Computational device with physical sensors and actuators.​
+
+AGENT = PROGRAM + ARCHITECTURE​
+
+## **Agent Program**
+
+Agents built using a table-oriented approach  PROBLEM!​
+
+* Example: A lookup table for a chess game would have entries!​
+
+* Solution: Strategies that guarantee a smaller program (e.g. Newton's method for calculating square roots);​
+
+## **Principles**
+
+### **Simple reflex agents**​
+
+Based only on current perception;​
+
+It works based on the if this then do that action rule
+
+It will only work if the correct decision can be made based on present perception alone;​
+
+Fully observable environment;
+
+![Simple reflex agents](/imgs/Portfolio_img_4.jpeg)_Simple reflex agents_
+
+### **Model-based reflex agents**​
+
+Partially observable environment;​
+
+Based on an internal state that holds some part of what is not currently being observed;​
+
+The internal state maintains some kind of history of perceptions;​
+
+Transient model describes how the environment changes with the agent's action;​
+
+Sensory model describes the functioning and limitations of sensors;​
+
+![Model-based reflex agents](/imgs/Portfolio_img_5.jpeg)_Model-based reflex agents_
+
+### **Goal-based agents**
+
+![Goal-based agents](/imgs/Portfolio_img_6.jpeg)_Goal-based agents_
+
+### **Utility-based agents**​
+Objectives do not guarantee high quality or high performance;​
+
+Utility function (measures the agent’s performance);​
+
+Conflicting and competing objectives;​
+
+Probability of success vs. Importance;​
+
+Maximize expected utility;
+
+![Utility-based agents](/imgs/Portfolio_img_7.jpeg)_Utility-based agents_
+
+## **Agent Learning**
+
+Learning element: modifies the performance element based on the critical element;​
+
+Performance element: penalty vs. Award  selects external actions;​
+
+Critical element: informs the learning element how well the agent is performing in relation to a fixed performance standard;​
+
+Problem generator: tests new possible solutions, even if known ones work;​
+
+![Agent Learning](/imgs/Portfolio_img_8.jpeg)_Agent Learning_
+
+## **Representation of states**
+- Atomic representation: search, games, Hidden Markov Models, Markov Decision Processes, etc.​
+
+- Factor representation: Constraint satisfaction algorithms, propositional logic, machine learning, Bayesian networks, etc.​
+
+- Structured representation: Relational database, 1st order logic, 1st order probabilistic models, natural language, etc.​
+
+# **Problem Statement: Autonomous Crop Monitoring Drones**
+
+### **Description:**
+
+Agriculture plays a crucial role in global food production, and efficient crop management is essential for ensuring food security. To optimize crop monitoring, we propose the development of autonomous crop monitoring drones equipped with AI capabilities. These drones are tasked with assessing the health and growth of crops, enabling farmers to make data-driven decisions for improved yields.
+
+### **P.E.A.S. (Performance, Environment, Actuators, Sensors):**
+
+**Performance:**
+
+The performance measure for our autonomous crop monitoring drones is defined as the accuracy and efficiency of crop assessment, including early detection of disease, pest infestations, and growth patterns. It also considers the timely delivery of reports to farmers.
+
+**Environment:**
+
+The environment in which the drones operate is a dynamic, large-scale agricultural field. It is characterized by the following properties:
+
+- **Partially Observable**: The vastness of agricultural fields makes it impossible for drones to observe the entire field simultaneously. They must rely on sensors and data fusion to gain insights into crop health.
+
+- **Multiagent**: Multiple drones may operate in the same field concurrently, working collaboratively to monitor different sections.
+
+- **Non-Deterministic**: Crop conditions can change due to weather, disease outbreaks, or pest migrations, introducing uncertainty into the monitoring process.
+
+- **Sequential**: Crop growth is a continuous process, requiring regular monitoring and assessment over time.
+
+- **Dynamic**: The environment is subject to change due to factors like weather, irrigation, and farming practices.
+
+- **Continuous**: Crop assessment involves continuous data collection, making it a real-time, ongoing process.
+
+- **Partially Known**: While we have information about the field layout, crop types, and historical data, exact conditions can vary.
+
+### **Discussion of Environment Properties:**
+
+1. **Partially Observable**: The vastness of agricultural fields necessitates that the drones operate with partial observability. They rely on onboard sensors, including cameras, infrared sensors, and multispectral imaging, to gather data about crop health. This property is essential as it mirrors real-world conditions where complete field visibility is unattainable.
+
+2. **Multiagent**: In large fields, deploying multiple drones is practical to ensure comprehensive coverage. They may collaborate, sharing data and coordinating their monitoring efforts. Multiagent systems improve efficiency and reduce monitoring time.
+
+3. **Non-Deterministic**: The dynamic nature of agriculture introduces non-determinism. Weather fluctuations, pest movements, and other unpredictable factors can impact crop health. Drones must adapt their monitoring strategies to address these uncertainties.
+
+4. **Sequential**: Crop monitoring is an ongoing process. Crop growth and health change over time, and drones must assess these changes sequentially. This property ensures that timely actions can be taken, such as pest control or irrigation adjustments.
+
+5. **Dynamic**: Agriculture is influenced by various dynamic factors, including weather patterns and farming practices. Drones need to account for these changes and provide insights to farmers for informed decision-making.
+
+6. **Continuous**: Crop assessment involves real-time data collection. Drones continuously monitor crops, ensuring that data is up to date. This is vital for early detection of issues and prompt intervention.
+
+7. **Partially Known**: While we have some knowledge about the field, such as its layout and crop types, the specific conditions within the field are subject to change. Drones adapt to the partially known environment by relying on historical data and real-time observations.
+
+The development of autonomous crop monitoring drones with AI capabilities addresses the need for efficient and data-driven agriculture. By considering these environment properties, the drones can navigate the complex agricultural landscape, provide accurate assessments, and empower farmers with the insights they need for effective crop management.
 
 # References
 
 * Professor's slides and class material
+* Open AI, GPT-3.5, Bing AI, Bard AI (Used to improve the structure of the text, correct grammar and syntax)
 
