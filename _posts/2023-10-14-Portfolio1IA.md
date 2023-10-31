@@ -2,7 +2,7 @@
 title: Portfolio 1 IA 
 date: 2023-10-14 17:23:00 -0400
 categories: [studies,ai,porfolio1]
-tags: [ia,studies]
+tags: [ai,studies]
 ---
 
 # **Intruduction**
