@@ -228,31 +228,25 @@ A sophisticated closed loop control system usually includes one or multiple feed
 
 These feedbacks can include throughput time, capacity utilization, disruptions, scraps, and many more. And the information it includes do not limited to machines and processes but also employees, such as their qualifications, professions, and roles. Usually, these feedbacks are processed mainly by a Shop Floor data collection (SFDC) system.
 
-Shop Floor Data Collection system is the foundation of a Closed Loop Production Control System that collects workers’ feedback and input through shop floor terminals and machines via smart sensors.
+Shop Floor Data Collection system is the foundation of a Closed Loop Production Control System that collects workers’ feedback and input through shop floor terminals and machines via smart sensors.[1]
 
 ### **Example of an Open Loop System Aplication**
-A straightforward example of an open loop control system is a traditional toaster. The user of a toaster will only know when it starts and finishes toasting, with little control over the input (2 slices of bread) as well as the process (Time, temperature, and more).
+A straightforward example of an open loop control system is a traditional toaster. The user of a toaster will only know when it starts and finishes toasting, with little control over the input (2 slices of bread) as well as the process (Time, temperature, and more).[1]
 
-https://planeus-solutions.com/blog/en/closed-loop-vs-open-loop-production-control-system/
 
 ## **Example of Algorithms Search Aplication**
 
 **Shortest Path and Minimum Spanning Tree for unweighted graph:**
 
-In an unweighted graph, the shortest path is the path with the least number of edges. With Breadth First, we always reach a vertex from a given source using the minimum number of edges. Also, in the case of unweighted graphs, any spanning tree is Minimum Spanning Tree and we can use either Depth or Breadth first traversal for finding a spanning tree. 
-
-https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
-
+In an unweighted graph, the shortest path is the path with the least number of edges. With Breadth First, we always reach a vertex from a given source using the minimum number of edges. Also, in the case of unweighted graphs, any spanning tree is Minimum Spanning Tree and we can use either Depth or Breadth first traversal for finding a spanning tree. [2]
 
 ### **How does it work ?** 
 
 The Minimum Spanning Tree (MST) is a tree that spans all the vertices in a graph, ensuring that the total edge weight is minimized. However, in the case of an unweighted graph, where all edge weights are equal, finding the MST simplifies to finding a spanning tree of the graph. We can use Breadth-First Search (BFS) or Depth-First Search (DFS) to find a spanning tree, and thus solve the MST problem for an unweighted graph.
 
-![Graph](/imgs/Portfolio2_img_3.png)_Graph_
+![Graph](/imgs/Portfolio2_img_3.png)_Graph [3]_
 
-![Minimum Spanning Tree](/imgs/Portfolio2_img_4.png)_Minimum Spanning Tree_
-
-https://aquarchitect.github.io/swift-algorithm-club/Minimum%20Spanning%20Tree%20%28Unweighted%29/
+![Minimum Spanning Tree](/imgs/Portfolio2_img_4.png)_Minimum Spanning Tree [3]_
 
 ### **Using Breadth-First Search (BFS)**
 
@@ -287,6 +281,7 @@ func breadthFirstSearchMinimumSpanningTree(graph: Graph, source: Node) -> Graph 
   return minimumSpanningTree
 }
 ```
+Reference - [3]
 
 ### **Using Depth-First Search (DFS)**
 
@@ -300,4 +295,34 @@ DFS explores a graph by going as deep as possible along each branch before backt
 
 ## **Example of Genetic Algorithms (Evolutionary algorithms) Aplication**
 
+**Google’s DeepMind** - DeepMind, a subsidiary of Google, has utilized genetic algorithms in its research on artificial intelligence. One notable example is the AlphaFold project, where DeepMind used GAs to develop a groundbreaking protein-folding algorithm. The algorithm accurately predicted the 3D structures of proteins, which is crucial for understanding their functions and has implications in drug discovery and disease research.[4]
 
+![3D structures of proteins](/imgs/Portfolio2_img_5.jpg)_3D structures of proteins [5]_
+
+
+
+If you want to know more i highly recommend you to read this article : [6]
+
+# **Conclusion**
+
+In conclusion, the exploration of various search strategies such as Open-Loop and Closed-Loop systems, Algorithm Searches, Heuristic Functions, Searching in Complex Environments, and Genetic Algorithms, elucidates the diversity and richness of approaches in computational problem-solving and optimization. Open-Loop and Closed-Loop systems establish the foundational strategies, offering simplistic yet effective approaches for a plethora of applications. Algorithm Searches and Heuristic Functions reveal the power of structured exploration and informed decision-making, enabling enhanced performance and efficiency in finding solutions. The journey through Searching in Complex Environments unveils the robustness and adaptability of algorithms, demonstrating their prowess in navigating through multifaceted challenges. Genetic Algorithms embody the essence of evolutionary inspiration, opening doors to innovative solutions in various complex problems.
+
+Each strategy and algorithm bring unique contributions, showcasing the adaptability, efficiency, and ingenuity of computational methodologies. Their diverse applications across numerous domains underscore the indispensable role they play in technological advancements and problem-solving in today’s dynamic and complex world.Also, understanding and leveraging these various search strategies stand paramount in harnessing the full potential of computational intelligence to navigate the intricate landscapes of problems and challenges in various fields.
+
+# **References**
+
+* Professor's slides and class material
+* Open AI, GPT-3.5, Bing AI, Bard AI (Used to improve the structure of the text, correct grammar and syntax)
+* 1 - https://planeus-solutions.com/blog/en/closed-loop-vs-open-loop-production-control-system/
+* 2 - https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
+* 3 - https://aquarchitect.github.io/swift-algorithm-club/
+* 4 - https://www.spiceworks.com/tech/artificial-intelligence/articles/
+* 5 - https://piip.co.kr/en/blog/alphafold-protein-structure-prediction-importance-1
+* 6 - https://www.nature.com/articles/s41586-021-03819-2
+
+[1]: https://planeus-solutions.com/blog/en/closed-loop-vs-open-loop-production-control-system/
+[2]:https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
+[3]:https://aquarchitect.github.io/swift-algorithm-club/Minimum%20Spanning%20Tree%20%28Unweighted%29/
+[4]:https://www.spiceworks.com/tech/artificial-intelligence/articles/what-are-genetic-algorithms/
+[5]:https://piip.co.kr/en/blog/alphafold-protein-structure-prediction-importance-1
+[6]:https://www.nature.com/articles/s41586-021-03819-2
