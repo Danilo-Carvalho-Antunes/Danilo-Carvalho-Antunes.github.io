@@ -158,7 +158,7 @@ The answer of this puzzle is determined by checking all the constraints and buil
 
 ## **Code**
 
-```Go
+```go
 package zebra
 
 // CSP is a structure that models a
