@@ -276,7 +276,6 @@ A typical solution to a CSP is a recursive backtracking algorithm:
 - If all domain values are looped without satisfying the constraint set a failure is returned and we backtrack one step down.
 
 
-
 # **Conclusion**
 
 In conclusion, Constraint Satisfaction Problems (CSPs) offer a comprehensive framework for solving complex problems through variable and constraint management. This text covered different CSP representations, such as atomic and factored, along with constraint types (unary, binary, n-ary) that dictate problem complexity. Consistency levels from node to global are critical for evaluating solution viability, with algorithms like backtracking, forward checking, and constraint propagation serving as navigational tools through solution spaces, often utilizing graph structures for enhanced clarity and efficiency. CSPs integrate multiple disciplines to evolve problem-solving approaches, promising continued advancements in tackling increasingly complex computational challenges.
