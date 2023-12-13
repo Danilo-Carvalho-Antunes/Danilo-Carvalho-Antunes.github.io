@@ -1,7 +1,7 @@
 ---
 title: Portfolio 4 IA 
 date: 2023-11-15 18:00:00 -0400
-categories: [studies,ai,porfolio4]
+categories: [studies,ai,portfolio4]
 tags: [ai,studies]
 ---
 

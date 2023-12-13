@@ -1,7 +1,7 @@
 ---
 title: Portfolio 2 IA 
 date: 2023-10-30 17:23:00 -0400
-categories: [studies,ai,porfolio2]
+categories: [studies,ai,portfolio2]
 tags: [ai,studies]
 ---
 

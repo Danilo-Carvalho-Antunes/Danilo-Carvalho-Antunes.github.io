@@ -1,7 +1,7 @@
 ---
 title: Portfolio 5 IA 
 date: 2023-12-11 21:00:00 -0400
-categories: [studies,ai,porfolio5]
+categories: [studies,ai,portfolio5]
 tags: [ai,studies]
 ---
 

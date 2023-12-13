@@ -1,7 +1,7 @@
 ---
 title: Portfolio 3 IA 
 date: 2023-11-6 20:00:00 -0400
-categories: [studies,ai,porfolio3]
+categories: [studies,ai,portfolio3]
 tags: [ai,studies]
 ---
 
