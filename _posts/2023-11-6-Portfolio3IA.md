@@ -45,7 +45,7 @@ In the study of Constraint Satisfaction Problems (CSPs), there are several types
 
 In the context of Constraint Satisfaction Problems (CSPs), consistency is a key concept used to assess the solvability of the problem. It is evaluated at different levels:
 
-1. **Node Consistency**: This level checks whether each individual variable in the CSP can satisfy its own constraints. Essentially, node consistency ensures that every value in a variable's domain meets the variable's unary constraints.
+1. **Node Consistency**: Thi# **Intruduction**s level checks whether each individual variable in the CSP can satisfy its own constraints. Essentially, node consistency ensures that every value in a variable's domain meets the variable's unary constraints.
 
 2. **Arc Consistency**: This involves looking at each pair of variables and checking if there is some way to assign values to both such that their binary constraints are satisfied. For a CSP to be arc-consistent, every value in a variable's domain must be consistent with every possible value of each neighboring variable's domain.
 
