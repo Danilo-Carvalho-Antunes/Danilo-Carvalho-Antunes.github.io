@@ -1,9 +1,11 @@
 ---
-title: Portfolio 4 IA 
+title: Portfolio 6 IA 
 date: 2023-12-17 15:00:00 -0400
 categories: [studies,ai,portfolio6]
 tags: [ai,studies]
 ---
+
+# **Intruduction**
 
 
 # **Contributions**
@@ -411,6 +413,6 @@ print(f"It's a airplane: {probs[0]:.4f}")
      airplane.
     It's a airplane: 1.0000
 
+# **Conclusion**
 
-
-
+# **References**
