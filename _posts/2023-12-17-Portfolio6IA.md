@@ -494,14 +494,7 @@ print(f"It's a airplane: {probs[0]:.4f}")
         background: #F44336;
     }
 </style>
-
-
-
-
-
-
-
-     airplane.
+    airplane.
     It's a airplane: 1.0000
 
 # **Conclusion**
