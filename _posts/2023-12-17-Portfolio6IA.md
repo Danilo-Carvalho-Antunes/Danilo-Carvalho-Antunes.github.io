@@ -495,6 +495,12 @@ print(f"It's a airplane: {probs[0]:.4f}")
     }
 </style>
 
+
+
+
+
+
+
      airplane.
     It's a airplane: 1.0000
 
