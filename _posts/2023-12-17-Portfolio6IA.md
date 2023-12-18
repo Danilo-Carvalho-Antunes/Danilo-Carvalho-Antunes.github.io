@@ -512,10 +512,8 @@ Concluding our journey, it's evident that Machine Learning isn't just a technolo
 
 - Professor's slides and class material.
 - Chat-GPT4.
-- GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. [Deep learning](http://www.deeplearningbook.org). Cambridge: MIT Press, 2016.
 - JAMES, G.; WITTEN, D.; HASTIE, T.; TIBSHIRANI, R. [An introduction to statistical learning](https://www.springer.com/gp/book/9781461471370). New York: Springer, 2013.
 - HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. The elements of statistical learning: data mining, inference, and prediction. New York: Springer, 2009.
 - AIEDUCATOR894. [Explainable Artificial Intelligence (XAI)](https://medium.com/@aieducator894/explainable-artificial-intelligence-xai-9045c885938e). Medium, 2023.
-- SUTTON, R. S.; BARTO, A. G. [Reinforcement learning: An introduction](http://incompleteideas.net/book/RLbook2020.pdf). Cambridge: MIT Press, 2018.
 - DOSHI-VELEZ, F.; KIM, B. [Towards a rigorous science of interpretable machine learning](https://arxiv.org/abs/1702.08608). arXiv preprint arXiv:1702.08608, 2017.
 - MOLNAR, C. [Interpretable machine learning](https://christophm.github.io/interpretable-ml-book/). Raleigh: Lulu.com, 2020.
