@@ -50,6 +50,12 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Debug base_path
+        run: echo "base_path: ${{ steps.pages.outputs.base_path }}"
+
+      - name: List _site directory
+        run: ls -lR "_site${{ steps.pages.outputs.base_path }}"
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
@@ -60,7 +66,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: "_site${{ steps.pages.outputs.base_path }}"
+          path: "_site${{ steps.pages.outputs.base_path || '' }}"
 
   deploy:
     environment:
@@ -69,6 +75,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Debug Deployment Inputs
+        run: echo "Run ID: ${{ github.run_id }}"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
