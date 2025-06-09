@@ -77,7 +77,8 @@ jobs:
     needs: build
     steps:
       - name: Debug Deployment Inputs
-        run: echo "Run ID: ${{ github.run_id }}"
+        run: |
+          echo "Run ID: ${{ github.run_id }}"
 
       - name: Deploy to GitHub Pages
         id: deployment
