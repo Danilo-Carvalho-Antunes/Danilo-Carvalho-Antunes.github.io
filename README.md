@@ -35,8 +35,7 @@ the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
 `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
-Then clone it to your local machine and run: run `bundle install` to install the dependencies.
-
+Then clone it to your local machine and run: 
 ```console
 $ bundle
 ```
