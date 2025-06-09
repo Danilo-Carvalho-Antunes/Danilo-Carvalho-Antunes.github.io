@@ -54,7 +54,9 @@ jobs:
         run: echo "base_path: ${{ steps.pages.outputs.base_path }}"
 
       - name: List _site directory
-        run: ls -lR "_site${{ steps.pages.outputs.base_path }}"
+        run: |
+          TARGET="_site${{ steps.pages.outputs.base_path }}"
+          ls -lR "$TARGET"
 
       - name: Test site
         run: |
