@@ -5,7 +5,7 @@ categories: [studies,ai,portfolio1]
 tags: [ai,studies]
 ---
 
-# **Intruduction**
+# **Introduction**
 What is intelligence, and what is artificial intelligence? These are profound questions that we will explore from a particular perspective.
 
 To embark on this journey, it's crucial to first establish a foundation by delving into the historical context of intelligence, understanding its implications in various fields, including art, and dissecting both the advantages and potential risks associated with artificial intelligence. However, before we dive into these complex realms, we must grasp the fundamental definitions.

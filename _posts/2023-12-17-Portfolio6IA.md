@@ -5,7 +5,7 @@ categories: [studies,ai,portfolio6]
 tags: [ai,studies]
 ---
 
-# **Intruduction**
+# **Introduction**
 Machine Learning, a pivotal branch of artificial intelligence, has revolutionized the way we interact with technology and data. At its core, Machine Learning is about enabling machines to learn from data, identify patterns, and make decisions with minimal human intervention. This fascinating field blends computer science with statistics, offering innovative solutions to complex problems across various industries. From predictive analytics in business to advancements in healthcare diagnostics, Machine Learning's impact is profound and far-reaching.
 
 In this exploration of Machine Learning, we delve into its fundamental concepts, types, and algorithms. We'll discuss how machines use both supervised and unsupervised learning to make sense of vast datasets, the intricate dance of balancing overfitting and underfitting in model training, and the exciting realms of neural networks and deep learning, which mirror the workings of the human brain.

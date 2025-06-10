@@ -5,7 +5,7 @@ categories: [studies,ai,portfolio4]
 tags: [ai,studies]
 ---
 
-# **Intruduction**
+# **Introduction**
 Logical agents are a fascinating aspect of artificial intelligence, where machines make decisions based on logic and known information. To understand how they work, we delve into the realms of syntax and semantics in propositional logic.
 
 Syntax, in this context, is like the grammar of a language but for logical statements. It's about how we structure our logical sentences to organize our thoughts logically.

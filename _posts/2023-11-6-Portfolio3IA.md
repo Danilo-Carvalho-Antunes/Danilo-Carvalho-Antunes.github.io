@@ -5,7 +5,7 @@ categories: [studies,ai,portfolio3]
 tags: [ai,studies]
 ---
 
-# **Intruduction**
+# **Introduction**
 Constraint Satisfaction Problems (CSPs) are a foundational concept in computational theory and artificial intelligence, where the task is to find a combination of values that satisfies a set of constraints over given variables. In exploring CSPs, we encounter different strategies for representing the problem **atomic** representation treats each state as an indivisible unit, while **factored** representation breaks down states into a more granular view using variables or factors. The types of constraints **unary, binary, and n-ary** determine the interactions between these variables and play a crucial role in defining the complexity of the problem.
 
 To navigate through the potential solutions of a CSP, we rely on various levels of consistency checks, such as node consistency, arc consistency, and global consistency, each offering a measure to evaluate the feasibility of solutions. The choice of algorithm to resolve these problems can greatly impact the effectiveness and efficiency of the solution, with backtracking, forward checking, and constraint propagation (like AC-3) being among the most prevalent methods.
@@ -45,7 +45,7 @@ In the study of Constraint Satisfaction Problems (CSPs), there are several types
 
 In the context of Constraint Satisfaction Problems (CSPs), consistency is a key concept used to assess the solvability of the problem. It is evaluated at different levels:
 
-1. **Node Consistency**: Thi# **Intruduction**s level checks whether each individual variable in the CSP can satisfy its own constraints. Essentially, node consistency ensures that every value in a variable's domain meets the variable's unary constraints.
+1. **Node Consistency**: This level checks whether each individual variable in the CSP can satisfy its own constraints. Essentially, node consistency ensures that every value in a variable's domain meets the variable's unary constraints.
 
 2. **Arc Consistency**: This involves looking at each pair of variables and checking if there is some way to assign values to both such that their binary constraints are satisfied. For a CSP to be arc-consistent, every value in a variable's domain must be consistent with every possible value of each neighboring variable's domain.
 
@@ -73,7 +73,7 @@ We choose a variable as the root;​
 
 We order the tree so that each variable appears after its parent in the tree (topological classification);
 
-![Topological classidication](/imgs/Portfolio3_img_1.jpeg)_Topological classidication_
+![Topological classification](/imgs/Portfolio3_img_1.jpeg)_Topological classification_
 
 ### **Cutting conditioning**
 

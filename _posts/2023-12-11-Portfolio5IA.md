@@ -7,7 +7,7 @@ tags: [ai,studies]
 
 # **Quantifying uncertainties and Bayesian networks, Probabilistic reasoning over time and Kalman filters**
 
-# **Intruduction**
+# **Introduction**
 In the complex and dynamic world of data analysis and system modeling, understanding and managing uncertainty is a central challenge. Various methodologies and models have been developed to quantify and navigate these uncertainties, each suited to different scenarios and requirements. This introduction will briefly overview key concepts and tools widely used in this domain, focusing on their applications and underlying principles.
 
 We begin with **statistical inference**, a fundamental approach in statistics for making predictions or drawing conclusions about a population based on sample data. It encompasses descriptive and inductive inference, crucial for understanding data and making broader generalizations.
