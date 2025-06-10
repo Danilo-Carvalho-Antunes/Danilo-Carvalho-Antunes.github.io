@@ -5,7 +5,7 @@ categories: [studies,ai,portfolio2]
 tags: [ai,studies]
 ---
 
-# **Intruduction**
+# **Introduction**
 
 Welcome to a journey through the world of search algorithms! In this guide, we’ll explore various strategies that computers use to search and solve problems, making things work efficiently and intelligently.
 
