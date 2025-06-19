@@ -1,0 +1,24 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const emailLink = document.querySelector('a[href^="mailto:"]');
+    if (emailLink) {
+      emailLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = this.href;
+      });
+    }
+  });
+</script>
+<footer>
+  <div class="footer-icons">
+    <a href="https://github.com/Danilo-Carvalho-Antunes" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/danilo-carvalho-7025a3370/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="/feed.xml" target="_blank">
+      <i class="fas fa-rss"></i>
+    </a>
+  </div>
+</footer>

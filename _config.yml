@@ -31,8 +31,6 @@ url: 'https://Danilo-Carvalho-Antunes.github.io'
 github:
   username: Danilo-Carvalho-Antunes # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -75,7 +73,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: imgs/ProfilePicture.jpeg
+avatar: imgs/foto_de_perfil.jpeg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
